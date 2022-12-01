@@ -36,3 +36,7 @@
 
 // Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
+static int MostCaloriesCarriedByElf(string input)
+{
+
+}
