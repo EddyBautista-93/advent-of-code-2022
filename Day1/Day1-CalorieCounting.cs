@@ -37,8 +37,9 @@
 
 // Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
-List<string> fileLines = AOCInputDataReader.ReadInput("Day1Data.txt").ToList();
 
+
+List<string> fileLines = AOCInputDataReader.ReadInput("Day1Data.txt").ToList();
 
 static void CaloriesCarriedByElf(List<string> input)
 {
@@ -61,4 +62,3 @@ static void CaloriesCarriedByElf(List<string> input)
     Console.WriteLine($"Part 1: " + caloriesTotal[0]);
     Console.WriteLine($"Part 2: " + (caloriesTotal[0] + caloriesTotal[1] + caloriesTotal[2]));
 }
-CaloriesCarriedByElf(fileLines);
